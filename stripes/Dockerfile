@@ -9,7 +9,7 @@ COPY stripes/requirements.txt .
 
 RUN pip install -r requirements.txt --no-cache-dir
 
-COPY . .
+COPY stripes/ .
 
 EXPOSE 8000
 
