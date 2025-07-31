@@ -3,7 +3,7 @@
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone https://github.com/ValeraTum/yatube.git
+git clone git@github.com:VaLeraTum/stripe_test.git
 ```
 
 ```
