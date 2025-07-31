@@ -5,11 +5,11 @@ ENV PYTHONUNBUFFERED 1
 
 WORKDIR /app
 
-COPY stripes/requirements.txt .
+COPY requirements.txt .
 
 RUN pip install -r requirements.txt --no-cache-dir
 
-COPY stripes/ .
+COPY . .
 
 EXPOSE 8000
 
